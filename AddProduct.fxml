@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203b.assignments.adminapp.AddProductController">
+    <children>
+        <Label layoutX="197.0" layoutY="65.0" text="Add Product Form">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="productName" layoutX="186.0" layoutY="121.0" prefHeight="25.0" prefWidth="230.0" />
+        <Label layoutX="87.0" layoutY="124.0" text="Product Name">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Button fx:id="cBtn" layoutX="207.0" layoutY="331.0" mnemonicParsing="false" onAction="#cancel" prefHeight="25.0" prefWidth="63.0" text="Cancel" />
+        <Button fx:id="sBtn" layoutX="331.0" layoutY="331.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="63.0" text="Save" />
+      <Label layoutX="87.0" layoutY="160.0" text="Catalog ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="catalog" layoutX="185.0" layoutY="158.0" prefHeight="25.0" prefWidth="230.0" />
+      <TextField fx:id="brand" layoutX="186.0" layoutY="198.0" prefHeight="25.0" prefWidth="230.0" />
+      <Label layoutX="87.0" layoutY="201.0" text="Brand">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="size" layoutX="186.0" layoutY="236.0" prefHeight="25.0" prefWidth="230.0" />
+      <Label layoutX="87.0" layoutY="239.0" text="Size">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="price" layoutX="186.0" layoutY="273.0" prefHeight="25.0" prefWidth="230.0" />
+      <Label layoutX="87.0" layoutY="276.0" text="Price">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

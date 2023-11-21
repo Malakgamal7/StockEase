@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203b.assignments.adminapp.AddCatalogController">
+   <children>
+      <Label layoutX="197.0" layoutY="65.0" text="Add Catalog Form">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="catalogName" layoutX="197.0" layoutY="175.0" prefHeight="25.0" prefWidth="198.0" />
+      <Label layoutX="87.0" layoutY="178.0" text="Catalog Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelBtn" layoutX="197.0" layoutY="248.0" mnemonicParsing="false" onAction="#cancel" prefHeight="25.0" prefWidth="63.0" text="Cancel" />
+      <Button fx:id="saveBtn" layoutX="321.0" layoutY="248.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="63.0" text="Save" />
+   </children>
+</AnchorPane>

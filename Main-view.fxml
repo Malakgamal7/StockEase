@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="727.0" prefWidth="1030.0" style="-fx-background-image: url(&quot;file:src/main/resources/se2203b/assignments/adminapp/WesternBackground.png&quot;); -fx-background-repeat: no-repeat; -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203b.assignments.adminapp.MainApplicationController">
+    <top>
+        <MenuBar fx:id="mainMenu" BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#exit" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Manage Products">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addCatalog" text="Add Catalog" />
+                  <MenuItem mnemonicParsing="false" onAction="#editDeleteCatalog" text="Edit/Delete Catalog" />
+                  <MenuItem mnemonicParsing="false" onAction="#addProduct" text="Add Product" />
+                  <MenuItem mnemonicParsing="false" onAction="#editDeleteProduct" text="Edit/Delete Product" />
+                  <MenuItem mnemonicParsing="false" onAction="#showCatalogs" text="View Catalog List" />
+                  <MenuItem mnemonicParsing="false" onAction="#showProducts" text="View Product List" />
+               </items></Menu>
+                <Menu mnemonicParsing="false" text="Manage Billing">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Email Customers" />
+                  <MenuItem mnemonicParsing="false" text="Prepare Shipping" />
+                    </items></Menu>
+                <Menu mnemonicParsing="false" text="Confirm Orders" />
+                <Menu mnemonicParsing="false" text="About">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#showAbout" text="About Us" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>

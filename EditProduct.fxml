@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203b.assignments.adminapp.EditProductController">
+    <children>
+        <Label layoutX="225.0" layoutY="25.0" text="Edit Product">
+            <font>
+                <Font name="System Bold" size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="83.0" layoutY="73.0" text="Product Name">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="oldName" layoutX="273.0" layoutY="77.0" prefHeight="17.0" prefWidth="189.0" />
+        <Label layoutX="83.0" layoutY="105.0" prefHeight="25.0" prefWidth="165.0" text="Update Product Name">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="newName" layoutX="273.0" layoutY="105.0" prefHeight="25.0" prefWidth="189.0" />
+        <Button fx:id="cB" layoutX="225.0" layoutY="293.0" mnemonicParsing="false" onAction="#cancel" prefHeight="25.0" prefWidth="96.0" text="Cancel" />
+        <Button fx:id="saveB" layoutX="366.0" layoutY="293.0" mnemonicParsing="false" onAction="#saveNew" prefHeight="25.0" prefWidth="96.0" text="Save" />
+      <Label layoutX="83.0" layoutY="183.0" prefHeight="25.0" prefWidth="165.0" text="Update Brand">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="newBrand" layoutX="273.0" layoutY="183.0" prefHeight="25.0" prefWidth="189.0" />
+      <Label layoutX="83.0" layoutY="217.0" prefHeight="25.0" prefWidth="165.0" text="Update Size">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="newSize" layoutX="273.0" layoutY="217.0" prefHeight="25.0" prefWidth="189.0" />
+      <Label layoutX="84.0" layoutY="249.0" prefHeight="25.0" prefWidth="165.0" text="Update Price">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="newPrice" layoutX="274.0" layoutY="249.0" prefHeight="25.0" prefWidth="189.0" />
+      <Label layoutX="83.0" layoutY="145.0" prefHeight="25.0" prefWidth="165.0" text="Update Catalog">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="catalog" layoutX="273.0" layoutY="145.0" prefHeight="25.0" prefWidth="189.0" />
+    </children>
+</AnchorPane>

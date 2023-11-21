@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203b.assignments.adminapp.EditDeleteCatalogController">
+   <children>
+      <Label layoutX="151.0" layoutY="94.0" text="Edit/Delete Catalog Form">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Label>
+      <ComboBox fx:id="catalogCombo" layoutX="214.0" layoutY="178.0" prefHeight="25.0" prefWidth="235.0" />
+      <Label layoutX="151.0" layoutY="181.0" text="Catalog">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="214.0" layoutY="226.0" mnemonicParsing="false" onAction="#openEdit" prefHeight="25.0" prefWidth="98.0" text="Edit" />
+      <Button layoutX="350.0" layoutY="226.0" mnemonicParsing="false" onAction="#delete" prefHeight="25.0" prefWidth="98.0" text="Delete" />
+      <Button fx:id="cancelButton" layoutX="262.0" layoutY="293.0" mnemonicParsing="false" onAction="#cancel" prefHeight="25.0" prefWidth="139.0" text="Cancel" />
+      <Label fx:id="error" layoutX="262.0" layoutY="269.0" prefHeight="17.0" prefWidth="139.0" textFill="#f90808" />
+   </children>
+</AnchorPane>

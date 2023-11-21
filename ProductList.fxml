@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="287.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203b.assignments.adminapp.ProductListController">
+    <center>
+        <TableView fx:id="tableView" prefHeight="380.0" prefWidth="534.0" BorderPane.alignment="CENTER">
+            <columns>
+                <TableColumn fx:id="productNameCol" prefWidth="152.3333387374878" text="Product Name">
+
+                </TableColumn>
+                <TableColumn fx:id="catalogNameCol" minWidth="0.0" prefWidth="92.66665649414062" text="Catalog">
+
+                </TableColumn>
+                <TableColumn fx:id="brandName" prefWidth="123.99996948242188" text="Brand">
+
+                </TableColumn>
+                <TableColumn fx:id="size" minWidth="0.0" prefWidth="99.99996948242188" text="Size">
+
+                </TableColumn>
+            <TableColumn fx:id="priceCol" prefWidth="115.3333740234375" text="Price" />
+            </columns>
+            <BorderPane.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="30.0" />
+            </BorderPane.margin>
+        </TableView>
+    </center>
+    <top>
+        <Label alignment="TOP_CENTER" prefHeight="22.0" prefWidth="550.0" style="-fx-font-size: 15; -fx-font-weight: bold;" text="Products List" textAlignment="CENTER" textFill="#f20202" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets top="20.0" />
+            </BorderPane.margin>
+        </Label>
+    </top>
+</BorderPane>
